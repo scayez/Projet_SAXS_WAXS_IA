@@ -1,0 +1,19 @@
+
+        <!DOCTYPE html>
+        <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <title>XYZ Viewer</title>
+            <!-- Include JSmol scripts -->
+            <script src="jmol2/jsmol/JSmol.min.js"></script>
+            <script src="jmol2/jsmol/js/Jmol2.js"></script>
+            <script>jmolInitialize("jmol2/jsmol");</script>
+        </head>
+        <body>
+        Affichage du fichier XYZ: ico1.xyz <!-- Displaying the filename -->
+        <script>
+        jmolApplet(400, "load ico1.xyz", "0"); // Loading the XYZ file dynamically using JSmol
+        </script>
+        </body>
+        </html>
+        
